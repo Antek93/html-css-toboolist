@@ -7,7 +7,7 @@
 /* Attributi intestazione */
 
 #intestazione {
-    background-color: rgba(255,255,255);
+    background-color: rgba(255,255,255,255);
     margin-left: 2%;
     line-height: 50%;
     vertical-align: middle;
@@ -29,7 +29,7 @@ h1 {
 /*Attributi Section 1 e 2 */
 
 .background {
-    background-color: rgb(3, 16, 196);
+    background-color: rgba(255,255,255,255);
     width: 650px;
     margin: auto;
     background-position: center;
@@ -43,30 +43,42 @@ h1 {
 .background.secondmain {
     height: 500px;
     border-radius: 10px;
-    border-top-color: gray;
+    border-top-color: rgb(198, 191, 191);
     border-top: 10px;
 }
 
 hr {
-    border: 4px solid gray;
+    border: 4px solid rgb(198, 191, 191);
 }
 
 #container {
-    background-color: gray;
+    background-color: rgb(198, 191, 191);
 }
 
 /* Attributi input */
 
 #tab-uno {
-    margin-left: 3%;
-    margin-top: 2%;
-    width: 40px;
-    color: black;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    width: 80px;
+    color: white;
+    background-color: rgba(71,173,241,255);
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    height: 20px;
 }
 
 #tab-due {
-    margin-left: 3%;
-    margin-top: 2%;
-    width: 70px;
-    color: black;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    width: 80px;
+    color: gray;
+    background-color:white;
+    border-radius: 3px;
+    border-color: rgba(181,180,181,255);
+    text-align: center;
+    border: grey 1px solid;
+    height: 20px;
 }
+
