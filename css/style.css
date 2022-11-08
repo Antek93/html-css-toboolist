@@ -26,8 +26,31 @@ h1 {
 
 /* Fine Attributi intestazione */
 
-/* Inizio attributi Section 1 */
+/*Attributi Section 1 e 2 */
 
-.background-main {
+.background {
     background-color: rgb(3, 16, 196);
+    width: 650px;
+    margin: auto;
+    background-position: center;
+}
+
+.background.main {
+    height: 40px;
+    border-radius: 10px;
+}
+
+.background.secondmain {
+    height: 500px;
+    border-radius: 10px;
+    border-top-color: gray;
+    border-top: 10px;
+}
+
+hr {
+    border: 3px solid gray;
+}
+
+#container {
+    background-color: gray;
 }
