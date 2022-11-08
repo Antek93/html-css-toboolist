@@ -1,0 +1,33 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Attributi intestazione */
+
+#intestazione {
+    background-color: rgba(255,255,255);
+    margin-left: 2%;
+    line-height: 50%;
+    vertical-align: middle;
+    height: 60px;
+    margin-top: 1%;
+}
+
+h1 {
+    display: inline-block;
+    line-height: 50%;
+    vertical-align: middle;
+    height: 60px;
+    font-family: roboto, arial;
+
+}
+
+/* Fine Attributi intestazione */
+
+/* Inizio attributi Section 1 */
+
+.background-main {
+    background-color: rgb(3, 16, 196);
+}
