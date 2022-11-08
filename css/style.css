@@ -108,5 +108,21 @@ h3::before {
 /* Task */
 
 .task {
+    font-family: roboto, arial;
+}
+
+.task::before {
+    content: '\2713';
+    color: rgb(8, 184, 8);
+    background-color: white;
+    border: 1px solid rgb(7, 204, 7);
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px 20px;
+
+}
+
+.today {
     
 }
