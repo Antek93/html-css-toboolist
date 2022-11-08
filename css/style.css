@@ -27,7 +27,7 @@ h1 {
 
 /* Fine Attributi intestazione */
 
-/*Attributi Section 1 e 2 */
+/*Attributi Section 1 e 2 generali */
 
 .background {
     background-color: rgba(255,255,255,255);
@@ -84,3 +84,29 @@ hr {
     height: 20px;
 }
 
+/* Inizio section 2 new task - today - upcoming */
+ 
+/* Generic */
+
+#text-container {
+    margin-left: -1%;
+    padding: 3%;
+}
+
+h3 {
+    color: rgba(82, 77, 77, 0.888);
+    font-family: roboto, arial;
+}
+
+h3::before {
+    content: ' \25BC  ';
+    font-size: 10px;
+    vertical-align: middle;
+    line-height: 50%;
+}
+
+/* Task */
+
+.task {
+    
+}
