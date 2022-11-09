@@ -156,9 +156,9 @@ h3::before {
     border-radius: 3px;
     text-align: center;
     display: inline-block;
-    width: 40px;
-    height: 15px;
-    vertical-align: middle;
+    width: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
  }
 
  .goals::after {
@@ -170,9 +170,9 @@ h3::before {
     border-radius: 3px;
     text-align: center;
     display: inline-block;
-    width: 40px;
-    height: 15px;
-    vertical-align: middle;
+    width: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
  }
 
 
@@ -186,8 +186,8 @@ h3::before {
     text-align: center;
     display: inline-block;
     width: 50px;
-    height: 15px;
-    vertical-align: middle;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .mobile::after {
@@ -200,8 +200,8 @@ h3::before {
     text-align: center;
     display: inline-block;
     width: 50px;
-    height: 15px;
-    vertical-align: middle;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .website::after {
@@ -214,6 +214,6 @@ h3::before {
     text-align: center;
     display: inline-block;
     width: 50px;
-    height: 15px;
-    vertical-align: middle;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
