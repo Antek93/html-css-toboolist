@@ -117,7 +117,7 @@ h3::before {
    
 
 .task.positive::before {
-    content: ' \2713';
+    content: '\23F7';
     color: rgb(8, 184, 8);
     background-color: white;
     border: 1px solid rgb(7, 204, 7);
