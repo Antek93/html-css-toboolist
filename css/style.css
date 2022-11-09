@@ -6,11 +6,14 @@
 
 /* Attributi intestazione */
 
+img {
+    height: 50px;
+    width: 50px;
+}
+
 #intestazione {
     background-color: rgba(255,255,255,255);
     margin-left: 2%;
-    line-height: 50%;
-    vertical-align: middle;
     height: 60px;
     margin-top: 1%;
     margin-bottom: 4px;
@@ -20,7 +23,7 @@ h1 {
     display: inline-block;
     line-height: 50%;
     vertical-align: middle;
-    height: 60px;
+    height: 50px;
     font-family: roboto, arial;
 
 }
@@ -213,3 +216,4 @@ h3::before {
     width: 50px;
     height: 15px;
     vertical-align: middle;
+}
